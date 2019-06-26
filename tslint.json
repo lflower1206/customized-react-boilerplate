@@ -1,0 +1,22 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-react",
+    "tslint-config-airbnb",
+    "tslint-config-prettier"
+  ],
+  "jsRules": {},
+  "rules": {
+    "import-name": [
+      true,
+      {
+        "react": "React",
+        "reactDom": "ReactDOM",
+        "reactTestRenderer": "TestRenderer"
+      }
+    ],
+    "member-access": false
+  },
+  "rulesDirectory": []
+}
